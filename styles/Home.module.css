@@ -1,0 +1,286 @@
+ .container {
+  padding: 0 2rem;
+}
+
+.all {
+  background-color: #00222D;
+}
+
+.main {
+  min-height: 100vh;
+  padding: 4rem 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #00222D;
+  color: #fff;
+  width: 100%;
+  height: 100%;
+}
+
+.title {
+  margin: auto;
+  font-size: 100px;
+}
+
+.title a {
+  color: #fff;
+}
+
+.title a:hover,
+.title a:focus,
+.title a:active {
+  text-decoration: underline;
+}
+
+.description {
+  margin: 4rem 0;
+  font-size: 1.5rem;
+  line-height: 1.5;
+  text-align: center;
+  width: 100%;
+  font-size: 48px;
+  white-space: pre;
+}
+
+.aboutme {
+  margin: 4rem 0;
+  font-size: 1.5rem;
+  line-height: 1.5;
+  text-align: center;
+  width: 100%;
+  font-size: 24px;
+  white-space: pre;
+}
+
+.code {
+  font-family: 'Courier New';
+  font-size: 14px;
+  line-height: 2;
+  justify-content: center;
+  background-color: #1B3840;
+  border: 3px solid #00B2ED;
+  border-radius: 5px;
+  padding: 10px;
+  white-space: pre;
+  overflow-x: auto;
+  width: 500px;
+  height: 500px;
+}
+
+.snippet {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 10px;
+  margin: auto;
+}
+
+.sntitle {
+  font-size: 30px;
+  font-weight: bold;
+  color: #fff;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+  margin: auto;
+  color: #fff;
+}
+
+.card {
+  flex: 0 1 calc(25% - 2rem); 
+  margin: 1rem;
+  font-size: 114px;
+  padding: 1.5rem;
+  text-align: center;
+  text-decoration: none;
+  background-color: #024356;
+  border: 3px solid #00B2ED;
+  border-radius: 5px;
+  width: 30%;
+  height: 100px;
+}
+
+.linkcard {
+  flex: 0 1 calc(50% - 2rem);
+  font-size: 50px;
+  text-align: center;
+  text-decoration: none;
+  color: #16c121;
+  transition: color 0.15s ease, border-color 0.15s ease;
+}
+
+.linkcard:hover,
+.linkcard:focus,
+.linkcard:active {
+  color: #18f327;
+}
+
+.card h2 {
+  margin: 0 0 1rem 0;
+  font-size: 1.5rem;
+}
+
+.card p {
+  margin: 0;
+  font-size: 1.25rem;
+  line-height: 1.5;
+}
+
+.linkcard h2 {
+  margin: 0 0 1rem 0;
+  font-size: 1.5rem;
+}
+
+.linkcard p {
+  margin: 0;
+  font-size: 1.25rem;
+  line-height: 1.5;
+}
+
+.buttons {
+  display: flex;
+  gap: 20px;
+}
+
+.button {
+  padding: 10px 20px;
+  background-color: #024356;
+  border: 3px solid #00B2ED;
+  color: #fff;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.button:hover,
+.button:focus,
+.button:active {
+  background-color: #006A88;
+  transform: scale(1.05);
+}
+
+.button h2 {
+  margin: 0 0 1rem 0;
+  font-size: 1.5rem;
+}
+
+.button p {
+  margin: 0;
+  font-size: 1.25rem;
+  line-height: 1.5;
+}
+
+.logo {
+  height: 1em;
+  margin-left: 0.2rem;
+}
+
+.image {
+  width: 90px;
+  height: 90px;
+  align-items: center;
+}
+
+@media (max-width: 600px) {
+  .grid {
+    width: 100%;
+  }
+
+  .title {
+    margin: auto;
+    font-size: 50px;
+  }
+
+  .image {
+    width: 40px;
+    height: 40px;
+  }
+
+  .description {
+    margin: 4rem 0;
+    font-size: 1.5rem;
+    line-height: 1.5;
+    width: 100%;
+    font-size: 17px;
+  }
+
+  .aboutme {
+    margin: 4rem 0;
+    font-size: 1.5rem;
+    line-height: 1.5;
+    text-align: center;
+    width: 100%;
+    font-size: 17px;
+  }
+  
+  .snippet {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+    margin: auto;
+  }
+
+  .code {
+    font-size: 14px;
+    line-height: 2;
+    border-radius: 5px;
+    padding: 10px;
+    width: 250px;
+    height: 250px;
+  }
+  
+  .sntitle {
+    font-size: 30px;
+    margin-bottom: 10px;
+  }
+  
+  .card {
+    flex: 0 1 calc(75% - 2rem); 
+    margin: 1rem;
+    font-size: 10px;
+    padding: 1.5rem;
+    border: 3px solid #00B2ED;
+    border-radius: 5px;
+    width: 30%;
+    height: 100px;
+  }
+
+  .linkcard {
+    flex: 0 1 calc(50% - 2rem);
+    font-size: 2.5px;
+  }
+
+  .button {
+    padding: 5px 10px;
+    border: 3px solid #00B2ED;
+    border-radius: 10px;
+    font-size: 0.25rem;
+  }
+
+  .button:hover,
+  .button:focus,
+  .button:active {
+    transform: scale(1.05);
+  }
+
+  .button h2 {
+  margin: 0 0 1rem 0;
+  font-size: 1rem;
+  }
+
+  .button p {
+    margin: 0;
+    font-size: 0.75rem;
+    line-height: 1.5;
+  }
+}
