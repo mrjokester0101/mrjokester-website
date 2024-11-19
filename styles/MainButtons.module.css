@@ -1,8 +1,12 @@
+.border {
+  background-color: #09476e;
+  border-radius: 10px;
+  border: 3px solid #1178b8;
+}
+
 .buttons {
   display: flex;
   gap: 40px;
-  background-color: #09476e;
-  border-radius: 10px;
 }
 
 .button {
