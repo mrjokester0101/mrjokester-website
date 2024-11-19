@@ -4,6 +4,7 @@ import styles from "../styles/MainButtons.module.css";
 
 const Home = () => {
   return (
+    <div className={styles.border}>
       <div className={styles.buttons}>
         <button
           className={styles.button}
@@ -19,7 +20,8 @@ const Home = () => {
           className={styles.button}
           onClick={() => window.location.href = 'https://mrjokester.vercel.app/bdfd'}>
         <h2>BDFD Snippets</h2>
-      </button>
+        </button>
+      </div>
     </div>
   );
 };
