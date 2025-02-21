@@ -25,7 +25,7 @@ const Home = () => {
           <div className={styles.snippet}>
             <p className={styles.snippet}>!eval</p>
             <code className={styles.code}>{`$nomention
-$var[code;$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$unescape[$message];+;$;-1];( ;[;-1]; );\];-1]; / ;\;;-1];$rickroll;https://youtu.be/dQw4w9WgXcQ;-1];+rickroll;https://youtu.be/dQw4w9WgXcQ;-1]]
+$var[code;$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$unescape[$message];+;$;-1];( ;\\[;-1]; );\\];-1]; / ;\\;;-1];$rickroll;https://youtu.be/dQw4w9WgXcQ;-1];+rickroll;https://youtu.be/dQw4w9WgXcQ;-1]]
 
 $if[$message==]
   $addCmdReactions[❗]
@@ -61,7 +61,7 @@ Function $error[command] at $error[row]:$error[column] returned an error: $error
   $endif
 $endif`}</code>
      <CopyTextButton text={`$nomention
-$var[code;$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$unescape[$message];+;$;-1];( ;[;-1]; );\];-1]; / ;\;;-1];$rickroll;https://youtu.be/dQw4w9WgXcQ;-1];+rickroll;https://youtu.be/dQw4w9WgXcQ;-1]]
+$var[code;$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$unescape[$message];+;$;-1];( ;\\[;-1]; );\\];-1]; / ;\\;;-1];$rickroll;https://youtu.be/dQw4w9WgXcQ;-1];+rickroll;https://youtu.be/dQw4w9WgXcQ;-1]]
 
 $if[$message==]
   $addCmdReactions[❗]
