@@ -24,7 +24,7 @@ const Home = () => {
   
           <div className={styles.snippet}>
             <p className={styles.snippet}>!eval</p>
-            <code className={styles.code}>{'$nomention
+            <code className={styles.code}>{`$nomention
 $var[code;$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$unescape[$message];+;$;-1];( ;[;-1]; );\];-1]; / ;\;;-1];$rickroll;https://youtu.be/dQw4w9WgXcQ;-1];+rickroll;https://youtu.be/dQw4w9WgXcQ;-1]]
 
 $if[$message==]
@@ -33,10 +33,10 @@ $else
   $if[$authorID==$botOwnerID]
     $try
 **💻 Code**
-```$var[code]```
+$var[code]
 
 **📋 Raw**
-```$message```
+$message
 
 $if[$checkContains[$message;deletecommand;clearReactions;deleteChannels;deleteMessage]==false]**🟢 Execution** $else**🟡 Execution** $endif
 $eval[$var[code]]
@@ -44,13 +44,13 @@ $eval[$var[code]]
       $if[$checkContains[$message;deletecommand;clearReactions;deleteChannels;deleteMessage]==true] $else $addCmdReactions[✅] $endif
     $catch
 **💻 Code**
-```$var[code]```
+$var[code]
 
 **📋 Raw**
-```$message```
+$message
 
 **🔴 Execution**
-Function `$error[command]` at `$error[row]:$error[column]` returned an error: $error[message]
+Function $error[command] at $error[row]:$error[column] returned an error: $error[message]
       
       $if[$checkContains[$message;deletecommand;clearReactions;deleteChannels;deleteMessage]==true] $else $clearReactions[$channelID;$lastMessageID;✅] $endif
       
@@ -59,8 +59,8 @@ Function `$error[command]` at `$error[row]:$error[column]` returned an error: $e
   $else
     $addCmdReactions[❌]
   $endif
-$endif'}</code>
-     <CopyTextButton text={'$nomention
+$endif`}</code>
+     <CopyTextButton text={`$nomention
 $var[code;$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$unescape[$message];+;$;-1];( ;[;-1]; );\];-1]; / ;\;;-1];$rickroll;https://youtu.be/dQw4w9WgXcQ;-1];+rickroll;https://youtu.be/dQw4w9WgXcQ;-1]]
 
 $if[$message==]
@@ -69,10 +69,10 @@ $else
   $if[$authorID==$botOwnerID]
     $try
 **💻 Code**
-```$var[code]```
+$var[code]
 
 **📋 Raw**
-```$message```
+$message
 
 $if[$checkContains[$message;deletecommand;clearReactions;deleteChannels;deleteMessage]==false]**🟢 Execution** $else**🟡 Execution** $endif
 $eval[$var[code]]
@@ -80,13 +80,13 @@ $eval[$var[code]]
       $if[$checkContains[$message;deletecommand;clearReactions;deleteChannels;deleteMessage]==true] $else $addCmdReactions[✅] $endif
     $catch
 **💻 Code**
-```$var[code]```
+$var[code]
 
 **📋 Raw**
-```$message```
+$message
 
 **🔴 Execution**
-Function `$error[command]` at `$error[row]:$error[column]` returned an error: $error[message]
+Function $error[command] at $error[row]:$error[column] returned an error: $error[message]
       
       $if[$checkContains[$message;deletecommand;clearReactions;deleteChannels;deleteMessage]==true] $else $clearReactions[$channelID;$lastMessageID;✅] $endif
       
@@ -95,7 +95,7 @@ Function `$error[command]` at `$error[row]:$error[column]` returned an error: $e
   $else
     $addCmdReactions[❌]
   $endif
-$endif'}/>
+$endif`}/>
 
           </div>
 
