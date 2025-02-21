@@ -63,6 +63,14 @@ const Home = () => {
                 <p>Get Code</p>
               </a>
             </div>
+            
+            <div className={styles.card}>
+              <h2>Economy 4 in 1 Commands</h2>
+              <a href="https://mrjokester.vercel.app/bdfd-eval" className={styles.linkcard}>
+                <p>Get Code</p>
+              </a>
+            </div>
+            
           </div>
         </main>
       </div>
