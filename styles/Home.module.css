@@ -44,11 +44,17 @@
   white-space: pre;
 }
 
+.aboutbox {
+  margin: 4rem 0;
+  background-color: #333;
+  border: 3px solid #222;
+  width: 90%;
+}
 .aboutme {
   margin: 4rem 0;
   font-size: 1.5rem;
   line-height: 1.5;
-  text-align: center;
+  text-align: left;
   width: 100%;
   font-size: 24px;
 }
