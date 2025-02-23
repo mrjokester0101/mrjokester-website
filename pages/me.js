@@ -23,19 +23,19 @@ const Home = () => {
           
           <div className={styles.aboutbox}>
             <div className={styles.aboutme}>
-              <h2>  1. Introduction</h2>
-                <p>   • Name: MrJokester</p>
-                <p>   • Age: 13 years old</p>
-                <p>   • Gender: Male</p>
-                <p>   • Hobbies: Coding, Chatting, Playing, Learning</p>
-                <p>   • Country: Bulgaria</p>
-                <p>   • Job: Jobless</p>
-              <h2>  2. Technical Skills</h2>
-                <p>   • Beginner: Javascript, Python, CSS, HTML & Flows</p>
-                <p>   • Very Good: Json & BDScript</p>
-              <h2>  3. Contact Information</h2>
-                <p>   • Email: mrjokester01010@gmail.com</p>
-                <p>   • Discord: mrjokester0101</p>
+              <h2>1. Introduction</h2>
+                <p> • Name: MrJokester</p>
+                <p> • Age: 13 years old</p>
+                <p> • Gender: Male</p>
+                <p> • Hobbies: Coding, Chatting, Playing, Learning</p>
+                <p> • Country: Bulgaria</p>
+                <p> • Job: Jobless</p>
+              <h2>2. Technical Skills</h2>
+                <p> • Beginner: Javascript, Python, CSS, HTML & Flows</p>
+                <p> • Very Good: Json & BDScript</p>
+              <h2>3. Contact Information</h2>
+                <p> • Email: mrjokester01010@gmail.com</p>
+                <p> • Discord: mrjokester0101</p>
             </div>
           </div>
           
