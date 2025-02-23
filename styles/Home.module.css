@@ -45,8 +45,7 @@
 }
 
 .aboutbox {
-  margin: 4rem 0;
-  padding: 4rem 0;
+  padding: 2rem 2rem;
   display: flex;
   background-color: #333;
   border: 3px solid #222;
