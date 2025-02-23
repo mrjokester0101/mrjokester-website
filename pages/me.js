@@ -12,32 +12,30 @@ const Home = () => {
           <meta name="description" content="About Me" />
           <link rel="icon" href="/profile.png" />
         </Head>
-
-
+        
         <main className={styles.main}>
           <h1 className={styles.title}>
              <Image className={styles.image} src="/title.png" alt="Profile Icon"/> MrJokester
           </h1>
           <p className={styles.description}>About Me</p>
-
-        <MainButtons/>
-  
-          <div className={styles.aboutme}>
-<h2>1. Introduction</h2>
-<p>   • Name: MrJokester</p>
-<p>   • Age: 13 years old</p>
-<p>   • Gender: Male</p>
-<p>   • Hobbies: Coding, Designing Games</p>
-<p>   • Country: Bulgaria</p>
-
-<h2>2. Skills</h2>
-<p>   • Technical Skills: Javascript, Python,</p>
-<p>     CSS, Json, HTML, BDScript</p>
-
-<h2>3. Contact Information</h2>
-<p>   • Email: mrjokester01010@gmail.com</p>
+          
+          <MainButtons/>
+          
+          <div className={styles.aboutbox}>
+            <div className={styles.aboutme}>
+              <h2>1. Introduction</h2>
+                <p>• Name: MrJokester</p>
+                <p>• Age: 13 years old</p>
+                <p>• Gender: Male</p>
+                <p>• Hobbies: Coding, Designing Games</p>
+                <p>• Country: Bulgaria</p>
+              <h2>2. Skills</h2>
+                <p>• Technical Skills: Javascript, Python, CSS, Json, HTML, BDScript</p>
+              <h2>3. Contact Information</h2>
+                <p>• Email: mrjokester01010@gmail.com</p>
+            </div>
           </div>
-  
+          
         </main>
       </div>
     </div>
