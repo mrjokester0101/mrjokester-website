@@ -8,8 +8,13 @@ const Home = () => {
     <div className={styles.all}>
       <div className={styles.container}>
         <Head>
-          <title>MrJokester</title>
-          <meta name="description" content="Main Page" />
+          <meta property="og:site_name" content="MrJokester">
+          <meta property="og:title" content="MrJokester" />
+          <meta property="og:description" content="My official website." />
+          <meta property="og:url" content="https://mrjokester.vercel.app">
+          <title>Main Page</title>
+          <meta name="description" content="This is where the invites of my stuff are located at." />
+          <meta property="og:image" href="/profile.png" />
           <link rel="icon" href="/profile.png" />
         </Head>
         <main className={styles.main}>
