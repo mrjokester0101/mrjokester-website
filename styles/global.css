@@ -11,3 +11,20 @@ body {
   text-rendering: optimizeLegibility;
   hyphens: auto;
 }
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #444;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #666;
+  border-radius: 5px;
+}
+            
+::-webkit-scrollbar-thumb:hover {
+  background: #777;
+}
