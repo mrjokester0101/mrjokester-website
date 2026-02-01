@@ -18,8 +18,13 @@ const Home = () => {
         </button>
         <button
           className={styles.button}
+          onClick={() => window.location.href = 'https://mrjokester.vercel.app/github'}>
+          <h2>Github Repositories</h2>
+        </button>
+        <button
+          className={styles.button}
           onClick={() => window.location.href = 'https://mrjokester.vercel.app/bdfd'}>
-        <h2>BDFD Snippets</h2>
+          <h2>BDFD Snippets</h2>
         </button>
       </div>
     </div>
